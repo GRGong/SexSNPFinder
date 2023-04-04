@@ -1,2 +1,2 @@
 # SexSNPFinder
-Script for sex-linked snps identification in VCF
+Script for sex-linked SNPs identification in VCF
