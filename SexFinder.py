@@ -32,7 +32,7 @@ def filter_vcf(femalelist , malelist, vcf):
                         if (tp =="0/0") or (tp == "0|0"):
                             femaleP += 1
 
-                    if (maleP >= len(male)*0.8 ) and (femaleP >= len(female)*0.8 ):
+                    if (maleP >= len(malePos)*0.8 ) and (femaleP >= len(femalePos)*0.8 ):
                         print("\t".join(line))
             else:
                 header = line
