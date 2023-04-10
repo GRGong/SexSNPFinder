@@ -26,6 +26,6 @@ def filter_vcf(femalelist , malelist, vcf):
                         if  ((dp >= 5) and ( (tp =="0/0") or (tp == "0|0") )):
                             femaleP += 1
 
-                    if (maleP >=18 ) and (femaleP >= 18 ):
+                    if (maleP >=28 ) and (femaleP >= 28 ):
                         print("\t".join(line))
 filter_vcf(sys.argv[1]  , sys.argv[2] , sys.argv[3])
