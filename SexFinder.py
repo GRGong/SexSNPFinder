@@ -19,8 +19,8 @@ def filter_vcf(femalelist, malelist, vcf):
                         elif value in male:
                             malePos.append(index)
                     head = "done"
-                    print(femalePos)
-                    print(malePos)
+                    #print(femalePos)
+                    #print(malePos)
                 
                 line = line.strip().split()
                 p = line[6]
