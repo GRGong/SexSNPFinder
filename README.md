@@ -2,7 +2,7 @@
 Script for sex-linked SNPs identification in VCF
 
 
-# Usage:
+# Usage
 ```{python}
 python SexFinder.py <female sample file> <male sample file> <vcf>
 ```
